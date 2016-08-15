@@ -1,0 +1,1 @@
+%UserProfile%/ti/gcc/bin/msp430-elf-gcc -I %UserProfile%/ti/gcc/include -mmcu=msp430f5438a -O2 -g -L %UserProfile%/ti/gcc/include _merge.c -o msp430f5438a.out -S 2> gcc.log
