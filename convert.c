@@ -21,7 +21,7 @@ void init_ADC(void)
 
 	/* Pamcenje rezultata */
 	ADC12MCTL0 = ADC12INCH_14;				// Rez. A14 u MEM0
-    ADC12MCTL1 = ADC12INCH_15 | ADC12EOS;	// Rez. A15 u MEM1, kraj sekvence
+	ADC12MCTL1 = ADC12INCH_15 | ADC12EOS;	// Rez. A15 u MEM1, kraj sekvence
 
 	SET_1(ADC12CTL0, ADC12ENC);		// Dozvola konverzije
 	SET_1(ADC12IE, ADC12IE1);		// Dozvola prekida po zavrsenoj sekvenci
